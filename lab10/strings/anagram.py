@@ -1,5 +1,5 @@
-import inspect
 from collections import Counter
+import inspect
 
 
 def is_anagram(word, _list):
