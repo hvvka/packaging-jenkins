@@ -1,5 +1,19 @@
 def decimal_to_binary(number):
     """
+        Calculates the decimal of the given binary number
+        :param number: decimal number in string or integer format
+        :return integer of the equivalent decimal number
+    """
+    decimal = []
+    number = list(str(number)[::-1])
+    for i in range(len(number)):
+        decimal.append(int(number[i]) * (2 ** i))
+
+    return sum(decimal)
+
+
+def binary_to_decimal(number):
+    """
         Calculates the binary of the given decimal number
         :param number: decimal number in string or integer format
         :return : string of the equivalent binary number
@@ -15,21 +29,26 @@ def decimal_to_binary(number):
     return ''.join(map(str, binary[::-1]))
 
 
-def binary_to_decimal(number):
+def decimal_to_hex(number):
     """
-        Calculates the decimal of the given binary number
-        :param number: decimal number in string or integer format
+        Calculates the decimal of the given hex number
+        :param number: hex number in string or integer format
         :return integer of the equivalent decimal number
     """
     decimal = []
+    decimal_equivalents = {'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15}
     number = list(str(number)[::-1])
     for i in range(len(number)):
-        decimal.append(int(number[i]) * (2 ** i))
+        try:
+            if int(number[i]) < 10:
+                decimal.append(int(number[i]) * (16 ** i))
+        except ValueError:
+            decimal.append(decimal_equivalents[number[i]] * (16 ** i))
 
     return sum(decimal)
 
 
-def decimal_to_hex(number):
+def hex_to_decimal(number):
     """
         Calculates the hex of the given decimal number
         :param number: decimal number in string or integer format
@@ -50,21 +69,3 @@ def decimal_to_hex(number):
 
     return ''.join(map(str, hexadec[::-1]))
 
-
-def hex_to_decimal(number):
-    """
-        Calculates the decimal of the given hex number
-        :param number: hex number in string or integer format
-        :return integer of the equivalent decimal number
-    """
-    decimal = []
-    decimal_equivalents = {'A': 10, 'B': 11, 'C': 12, 'D': 13, 'E': 14, 'F': 15}
-    number = list(str(number)[::-1])
-    for i in range(len(number)):
-        try:
-            if int(number[i]) < 10:
-                decimal.append(int(number[i]) * (16 ** i))
-        except ValueError:
-            decimal.append(decimal_equivalents[number[i]] * (16 ** i))
-
-    return sum(decimal)

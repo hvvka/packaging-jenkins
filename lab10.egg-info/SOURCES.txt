@@ -19,8 +19,3 @@ lab10/sorting/bubble_sort.py
 lab10/strings/__init__.py
 lab10/strings/anagram.py
 lab10/strings/palindrome.py
-tests/__init__.py
-tests/test_fibonacci.py
-tests/test_math.py
-tests/test_sorting.py
-tests/test_string.py

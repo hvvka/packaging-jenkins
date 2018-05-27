@@ -8,7 +8,6 @@ def get_sequence(n):
     """
     Return Fibonacci sequence from zero to specified number as list.
     """
-
     def fib(num):
         """
         Return Fibonacci value by specified number as integer.

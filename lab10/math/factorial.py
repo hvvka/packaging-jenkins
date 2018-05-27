@@ -7,7 +7,7 @@ def factorial(number):
     """
     if not isinstance(number, int):
         raise Exception('Enter an integer number to find the factorial')
-    if number == 1 or number == 0:
+    if number == 1 or number == 2:
         return 1
     else:
         return number * factorial(number - 1)

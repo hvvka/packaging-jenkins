@@ -1,12 +1,11 @@
-from os import path
-
 from setuptools import setup, find_packages
+from os import path
 
 here = path.abspath(path.dirname(__file__))
 
 setup(
     name='lab10',
-    version='0.0.1',
+    version='0.0.2',
     license='MIT',
     description='Lab10 - package management',
     long_description=open('README.rst').read(),

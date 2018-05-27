@@ -1,5 +1,5 @@
-import random
 import unittest
+import random
 
 from lab10.sorting import bubble_sort
 
