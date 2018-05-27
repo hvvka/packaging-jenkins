@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # -- General configuration ------------------------------------------------
 project = u'lab10'
-version = release = u'0.0.2'
+version = release = u'0.0.1'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -31,18 +31,18 @@ source_suffix = ['.rst', '.md']
 # source_suffix = '.rst'
 
 # The encoding of source files.
-#source_encoding = 'utf-8-sig'
+# source_encoding = 'utf-8-sig'
 
 # The master toctree document.
 master_doc = 'index'
 
 latex_documents = [
-  ('index', 'lab10.tex', u"lab10",
-   u'Hanna Grodzcika', 'manual'),
+    ('index', 'lab10.tex', u"lab10",
+     u'Hanna Grodzcika', 'manual'),
 ]
 
 # Auto-Doc options
-autodoc_member_order = 'bysource' # alternatively 'alphabetical' (default) or 'groupwise'
+autodoc_member_order = 'bysource'  # alternatively 'alphabetical' (default) or 'groupwise'
 
 # -- Options for manual page output --------------------------------------------
 
@@ -59,7 +59,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'lab10', u'lab10 documentation',
-   u'Hanna', 'lab10 documentation', 'One line description of project.',
-   'Miscellaneous'),
+    ('index', 'lab10', u'lab10 documentation',
+     u'Hanna', 'lab10 documentation', 'One line description of project.',
+     'Miscellaneous'),
 ]

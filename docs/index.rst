@@ -17,13 +17,13 @@ Structure
 -----------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Documentation:
+:maxdepth: 2
+       :caption: Documentation:
 
-   Fibonacci
-   Math
-   Sorting
-   Strings
+           Fibonacci
+           Math
+           Sorting
+           Strings
 
 Quick Start Guide
 -----------------

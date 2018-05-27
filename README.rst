@@ -1,15 +1,15 @@
-lab10-lib-1
+lab10-lib-0
 ===========
 
-| 0.0.2 version of lab10 library
+| 0.0.1 version of lab10 library
 
 
 Features
 ~~~~~~~~
 
-* Messed library
-* In conversion module implementations of ``dec_to_bin``, ``bin_to_dec`` and ``dec_to_hex``, ``hex_to_dec`` are swapped
-* ``factorial`` returns wrong result – recursion ends up too early
+* Fine version of library – everything works as expected
+* Library made of few modules and packages implementing simple data transformations and calculations
+* Main goal is practising package management
 
 
 Installation
@@ -40,7 +40,7 @@ Once you have done this, you should be able to make a source distribution by typ
     python setup.py sdist
 
 
-This will create a file such as ``lab10-0.0.2.zip`` or ``lab10-0.0.2.tar.gz`` (depending on the platform) in ``dist`` directory.
+This will create a file such as ``lab10-0.0.1.zip`` or ``lab10-0.0.1.tar.gz`` (depending on the platform) in ``dist`` directory.
 If it all works, this file is suitable for giving to others or uploading to the Python Package Index (https://pypi.org/).
 
 2a. Upload that file to PyPI with Twine
@@ -59,9 +59,7 @@ If it all works, this file is suitable for giving to others or uploading to the 
     source venv/bin/activate
     git remote add origin git@git.e-science.pl:hgrodzicka226154/lab10-lib.git
     git add . && git commit -m "Version 0.0.1"
-    git push -u origin --all
-    git push -u origin --tags
-
+    git push --set-upstream git@git.e-science.pl:hgrodzicka226154/lab10-lib.git master
 
 
 Quick Start Guide
