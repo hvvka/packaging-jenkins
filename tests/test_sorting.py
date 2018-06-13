@@ -1,5 +1,5 @@
-import random
 import unittest
+import random
 
 import xmlrunner
 

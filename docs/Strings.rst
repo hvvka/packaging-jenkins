@@ -29,7 +29,7 @@ Anagram
 * Functions and their uses
 
 .. automodule:: lab10.strings.anagram
-:members:
+   :members:
 
 
 Palindrome
@@ -38,4 +38,4 @@ Palindrome
 * Functions and their uses
 
 .. automodule:: lab10.strings.palindrome
-:members:
+   :members:

@@ -11,7 +11,6 @@ def get_sequence(n):
     :param n: a specified number
     :return a list of Fibonacci sequence
     """
-
     def fib(num):
         """
         :return Fibonacci value by specified number as integer
