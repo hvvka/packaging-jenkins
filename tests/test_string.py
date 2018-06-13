@@ -1,5 +1,7 @@
 import unittest
 
+import xmlrunner
+
 from lab10.strings import (
     anagram,
     palindrome)
@@ -17,4 +19,4 @@ class TestPalindrome(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output="./python_unittests_xml"))

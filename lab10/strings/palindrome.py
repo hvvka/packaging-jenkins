@@ -3,7 +3,7 @@ import inspect
 
 def is_palindrome(string):
     """
-    Checks the string for palindrome
+    Checks the string for palindrome.
 
     :param string: string to check
     :return true if string is a palindrome false if not
@@ -15,7 +15,7 @@ def is_palindrome(string):
 
 def get_code():
     """
-    Returns the code for the is_palindrome function
+    Returns the code for the is_palindrome function.
 
     :return source code
     """

@@ -1,6 +1,7 @@
 def pascals_triangle(n):
     """
-    Prints the Pascal Triangle to the console
+    Prints the Pascal Triangle to the console.
+
     :param n: a number of lines in pascal triangle
     """
 

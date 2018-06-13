@@ -10,7 +10,7 @@ Features
 * Fine version of library – everything works as expected
 * Library made of few modules and packages implementing simple data transformations and calculations
 * Main goal is practising package management
-
+* Tests generate XML files that are used for viewing results and code coverage in Jenkins
 
 Installation
 ~~~~~~~~~~~~
@@ -60,6 +60,21 @@ If it all works, this file is suitable for giving to others or uploading to the 
     git remote add origin git@git.e-science.pl:hgrodzicka226154/lab10-lib.git
     git add . && git commit -m "Version 0.0.1"
     git push --set-upstream git@git.e-science.pl:hgrodzicka226154/lab10-lib.git master
+
+
+Generate coverage XML
+~~~~~~~~~~~~~~~~~~~~~
+
+Simply run:
+
+.. code-block:: bash
+
+   $ ./runUnittestShel.sh
+
+
+It will generate test results in directory ./python_unittests_xml and .coverage file.
+
+These files can be used in Jenkins for creating charts etc.
 
 
 Quick Start Guide

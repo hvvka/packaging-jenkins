@@ -1,6 +1,7 @@
 def decimal_to_binary(number):
     """
-        Calculates the binary of the given decimal number
+        Calculates the binary of the given decimal number.
+
         :param number: decimal number in string or integer format
         :return : string of the equivalent binary number
     """
@@ -17,7 +18,8 @@ def decimal_to_binary(number):
 
 def binary_to_decimal(number):
     """
-        Calculates the decimal of the given binary number
+        Calculates the decimal of the given binary number.
+
         :param number: decimal number in string or integer format
         :return integer of the equivalent decimal number
     """
@@ -31,7 +33,8 @@ def binary_to_decimal(number):
 
 def decimal_to_hex(number):
     """
-        Calculates the hex of the given decimal number
+        Calculates the hex of the given decimal number.
+
         :param number: decimal number in string or integer format
         :return string of the equivalent hex number
     """
@@ -53,7 +56,8 @@ def decimal_to_hex(number):
 
 def hex_to_decimal(number):
     """
-        Calculates the decimal of the given hex number
+        Calculates the decimal of the given hex number.
+
         :param number: hex number in string or integer format
         :return integer of the equivalent decimal number
     """

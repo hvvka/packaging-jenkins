@@ -6,7 +6,7 @@ import inspect
 
 def sort(_list):
     """
-    Bubble Sorting algorithm
+    Bubble Sorting algorithm.
 
     :param _list: list of values to sort
     :return: sorted values
@@ -20,7 +20,7 @@ def sort(_list):
 
 def improved_sort(_list):
     """
-    Improved Bubble Sorting algorithm
+    Improved Bubble Sorting algorithm.
 
     :param _list: list of values to sort
     :return: sorted values
@@ -38,7 +38,7 @@ def improved_sort(_list):
 
 def time_complexities():
     """
-    Return information on functions time complexity
+    Return information on functions time complexity.
 
     :return string
     """
@@ -50,8 +50,8 @@ def time_complexities():
 
 def get_code():
     """
-    easily retrieve the source code
-    of the sort function
+    Easily retrieve the source code
+    of the sort function.
 
     :return: source code
     """

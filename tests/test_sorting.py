@@ -1,6 +1,8 @@
 import random
 import unittest
 
+import xmlrunner
+
 from lab10.sorting import bubble_sort
 
 
@@ -28,4 +30,4 @@ class TestBubbleSort(TestSortingAlgorithm):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output="./python_unittests_xml"))

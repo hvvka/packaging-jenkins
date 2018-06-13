@@ -1,5 +1,7 @@
 import unittest
 
+import xmlrunner
+
 from lab10.math import (
     factorial,
     conversion)
@@ -25,4 +27,4 @@ class TestConversion(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output="./python_unittests_xml"))

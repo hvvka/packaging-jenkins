@@ -4,6 +4,8 @@ Test for Fibonacci implementations logic.
 
 import unittest
 
+import xmlrunner
+
 from lab10.fibonacci import recursion
 
 
@@ -28,4 +30,4 @@ class TestFibonacciImplementations(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output="./python_unittests_xml"))

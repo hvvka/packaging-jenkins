@@ -7,11 +7,14 @@ import inspect
 def get_sequence(n):
     """
     Return Fibonacci sequence from zero to specified number as list.
+
+    :param n: a specified number
+    :return a list of Fibonacci sequence
     """
 
     def fib(num):
         """
-        Return Fibonacci value by specified number as integer.
+        :return Fibonacci value by specified number as integer
         """
         if num <= 1:
             return num
@@ -20,7 +23,7 @@ def get_sequence(n):
 
     def sequence(num):
         """
-        Return sequence of Fibonacci values as list.
+        :return sequence of Fibonacci values as list
         """
         return [fib(value) for value in range(num + 1)]
 
@@ -29,6 +32,6 @@ def get_sequence(n):
 
 def get_code():
     """
-    Return source code of Fibonacci sequence logic's implementation.
+    :return source code of Fibonacci sequence logic's implementation
     """
     return inspect.getsource(get_sequence)
