@@ -69,10 +69,10 @@ Simply run:
 
 .. code-block:: bash
 
-   $ ./runUnittestShel.sh
+   $ ./run_tests.sh
 
 
-It will generate test results in directory ./python_unittests_xml and .coverage file.
+It will generate test results in directory `./python_unittests_xml` and `.coverage` file.
 
 These files can be used in Jenkins for creating charts etc.
 
